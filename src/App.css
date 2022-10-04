@@ -1,0 +1,59 @@
+body{
+  background-color: #C3F8FF;
+}
+
+.app{
+  background-color: #FFE9A0;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.crossed{
+  text-decoration: line-through 2px #47B5FF ;
+  background-color: #DFF6FF ;
+}
+
+ul, li{
+  font-family: 'Abyssinica SIL', serif;
+font-family: 'Libre Baskerville', serif;
+list-style-type: none;
+padding: 10px;
+margin: 0;
+
+}
+
+h1{
+  font-family: 'Abyssinica SIL', serif;
+font-family: 'Libre Baskerville', serif;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.add{
+background-color: #47B5FF  ;
+ 
+}
+
+.delete{
+ background-color: #FF577F  ;
+}
+
+button{
+  margin-top: 5px ;
+  padding: 5px;
+  border: none;
+  width: 50%;
+  color:#FFE9A0; 
+  font-size: 15px;
+  font-family: 'Abyssinica SIL', serif;
+}
+
+input{
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+}
